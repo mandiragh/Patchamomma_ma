@@ -1,0 +1,113 @@
+# Patchamomma 2026 Build Phase — Initial Project Draft
+
+## Project Title
+
+**HealthSight – Healthcare Data Agent & Self-Service Analytics**
+
+## 1. Idea
+
+HealthSight is a healthcare analytics application that allows non-technical users to ask questions in plain English and receive data-driven answers from public healthcare datasets.
+
+The main problem is that healthcare administrators and business users often depend on data analysts to write SQL queries for questions related to cost, utilization, provider performance, and regional differences.
+
+The project will use Generative AI to translate natural-language questions into BigQuery SQL, retrieve the data, and display the results through tables and basic visualizations.
+
+The initial version will focus on healthcare cost and utilization analysis rather than clinical diagnosis or patient-specific recommendations.
+
+## 2. Data Source
+
+The primary data source will be the **Google BigQuery Public Medicare dataset**.
+
+Possible future datasets may include:
+
+* WHO public health datasets
+* NIH public datasets
+* Kaggle healthcare datasets
+* Synthetic healthcare data for testing
+
+No confidential or employer-related healthcare data will be used.
+
+## 3. Technology
+
+The initial technology stack will include:
+
+* **Google BigQuery** – data storage and analytics
+* **Gemini** – natural-language understanding and SQL generation
+* **Google ADK** – agent development and tool orchestration
+* **Python** – backend development
+* **Streamlit** – user interface
+* **Google Cloud Run** – application deployment
+* **Google AI Studio / Vertex AI** – Gemini development and testing
+* **Google Cloud IAM** – access and security controls
+
+The application will include basic SQL validation and read-only access so that AI-generated queries are checked before execution.
+
+## 4. Platform
+
+The project will be developed primarily on **Google Cloud Platform**.
+
+The Google Cloud free trial credits provided for the Build Phase will be used where necessary.
+ Free services such as BigQuery and Google AI Studio will also be used during initial development.
+
+Cloud usage and query costs will be monitored to avoid unnecessary use of credits.
+
+## 5. Team
+
+The project is currently planned as a small project with one member.
+
+
+**Team Members**
+
+* Name: Mandira Ghimire (SELF)
+* Email: 
+
+
+## 6. Project Tracker
+
+The project tracker will be updated throughout the Build Phase with:
+
+* Project idea and use case
+* Technology stack
+* Dataset information
+* Current development status
+* Completed milestones
+* Issues or blockers
+* Demo/deployment information
+
+## 7. Initial Project Timeline
+
+### Phase 1 – Planning
+
+Define the project idea, problem statement, users, data source, and MVP scope.
+
+### Phase 2 – Data Exploration
+
+Explore the Medicare dataset in BigQuery and identify useful tables, columns, and healthcare metrics.
+
+### Phase 3 – Backend Development
+
+Connect Python to BigQuery and create functions for schema discovery and query execution.
+
+### Phase 4 – AI Agent Development
+
+Use Gemini and Google ADK to convert natural-language questions into SQL queries.
+
+### Phase 5 – Safety and Validation
+
+Add SQL validation, read-only restrictions, and BigQuery query controls.
+
+### Phase 6 – User Interface
+
+Build a simple Streamlit application that displays answers, tables, SQL queries, and visualizations.
+
+### Phase 7 – Deployment
+
+Deploy the application using Google Cloud Run.
+
+### Phase 8 – Testing and Final Demo
+
+Test the application using sample healthcare questions, correct issues, and prepare the final project demonstration.
+
+## Initial MVP Goal
+
+The first working version should allow a user to ask a healthcare cost or utilization question in plain English, generate a valid BigQuery query, retrieve the appropriate public Medicare data, and display the result in an understandable format.
