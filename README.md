@@ -4,6 +4,12 @@ HealthSight is an AI-powered healthcare analytics application that allows users 
 
 The application combines Google Gemini, Google ADK, BigQuery, Streamlit, and Cloud Run to provide governed, explainable, and self-service healthcare analytics. It supports both a deterministic analytics workflow and an agentic workflow that can inspect schema, validate SQL, execute protected BigQuery queries, and return results with explanations and visualizations.
 
+## Live Demo
+
+HealthSight is deployed on Google Cloud Run and is publicly accessible at:
+Link: https://healthsight-285849155638.us-east1.run.app/ 
+
+
 ## Project Overview
 
 Healthcare administrators, analysts, researchers, and operational teams often depend on technical staff to write SQL and retrieve information from large healthcare datasets. HealthSight reduces this dependency by allowing users to ask questions in plain English and receive structured analytical results.
@@ -234,7 +240,7 @@ Actual filenames may vary slightly as the project evolves.
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/mandiragh/Patchamomma_ma>
 cd healthsight
 ```
 
