@@ -7,7 +7,8 @@ The application combines Google Gemini, Google ADK, BigQuery, Streamlit, and Clo
 ## Live Demo
 
 HealthSight is deployed on Google Cloud Run and is publicly accessible at:
-Link: https://healthsight-285849155638.us-east1.run.app/ 
+
+ https://healthsight-285849155638.us-east1.run.app/ 
 
 
 ## Project Overview
