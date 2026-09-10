@@ -1,0 +1,9 @@
+streamlit
+pandas
+google-cloud-bigquery
+db-dtypes
+pyarrow
+google-genai
+python-dotenv
+google-adk==2.8.0
+
